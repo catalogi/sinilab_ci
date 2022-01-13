@@ -1,0 +1,46 @@
+/* * {
+  box-sizing: border-box;
+} */
+.clear {
+  clear: left;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  /* background-color: #f6fcfde6;
+  opacity: 5; */
+  box-shadow: 1px 2px 33px 2px rgba(4, 4, 4, 0.05);
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.logos {
+  width: 390px;
+  margin-top: 150px;
+}

@@ -1,0 +1,133 @@
+/* * {
+  box-sizing: border-box;
+  background:linear-gradient(#fff,#a57db5)
+} */
+
+body {
+  font-family: "Lucida Grande";
+	background:linear-gradient(#fff,#bca0c780);
+  /* background: url("../img/backgound2.svg") right; */
+  /* background-repeat: no-repeat; */
+  /* padding-left: 18px !important; */
+  background-size: 100%;
+  background-position-y: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  /* background-color: #f6fcfde6;
+  opacity: 5; */
+  box-shadow: 1px 2px 33px 2px rgba(4, 4, 4, 0.05);
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.logos {
+  width: 390px;
+  margin-top: 150px;
+}
+.space {
+  height: 80px;
+}
+.login-box {
+  margin-top: 15%;
+  padding: 30px;
+  margin-left: 9px;
+  margin-bottom: 15%;
+  /* position:fixed; */
+  background: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(173, 158, 158, 0.17);
+  box-sizing: border-box;
+  border-radius: 17px;
+}
+.login-box img {
+  padding-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 20px;
+}
+.switch{
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+}
+
+.bgk{
+	background: url("../img/backgound2.svg") right;
+  background-repeat: no-repeat;
+  /* padding-left: 18px !important; */
+  background-size: 50%;
+  background-position-y: 70%;
+  padding: 0;
+}
+
+.wraper {
+  max-width: 100% !important;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.cotainer {
+  max-width: 100% !important;
+  height: 100% !important;
+  /* background: linear-gradient(#1debe400, #dadddf94); */
+  /* opacity: 0.2; */
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #a57db5;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  width: 100% !important;
+  padding: 15px;
+  /* position: absolute; */
+  /* background: linear-gradient(#dadddf94, #cacdcf94); */
+}
+
+@media screen and (max-width:786px) {
+  .login-box {
+    margin-top: 15%;
+    padding: 25px;
+    margin-left: 0;
+    margin-bottom: 15%;
+    /* position:fixed; */
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(173 158 158 / 0%);
+    /* box-sizing: border-box; */
+    /* border-radius: 17px; */
+  }
+
+
+footer {
+  width: 100% !important;
+  height: 100px;
+  padding: 100px 52px 3px 52px;
+  /* position: absolute; */
+  /* background: linear-gradient(#dadddf94, #c2c5c794); */
+  text-align: center;
+}
+}
