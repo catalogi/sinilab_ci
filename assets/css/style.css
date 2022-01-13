@@ -21,13 +21,13 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  margin-right: -5px;
 }
 
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: rgb(10, 10, 10);
   display: block;
   float: left;
   transition: all 0.5s;
@@ -43,4 +43,9 @@ header {
 .logos {
   width: 390px;
   margin-top: 150px;
+}
+.login{
+	margin: 6px;
+	float: right;
+	margin-right: -227px;
 }
