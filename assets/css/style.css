@@ -1,51 +1,119 @@
 /* * {
   box-sizing: border-box;
 } */
+body {
+	margin: 0;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
 .clear {
-  clear: left;
+	clear: left;
+}
+a {
+	text-decoration: none;
 }
 
 header {
-  height: 65px;
-  width: 100%;
-  /* background-color: #f6fcfde6;
+	height: 65px;
+	width: 100%;
+	/* background-color: #f6fcfde6;
   opacity: 5; */
-  box-shadow: 1px 2px 33px 2px rgba(4, 4, 4, 0.05);
-  position: relative;
-  top: 0;
-  z-index: 10;
+	box-shadow: 1px 2px 33px 2px rgba(4, 4, 4, 0.05);
+	position: relative;
+	top: 0;
+	z-index: 10;
 }
 .header-left {
-  float: left;
+	float: left;
 }
 
 .header-right {
-  float: right;
-  margin-right: -5px;
+	/* float: right;
+  margin-right: -5px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	left: 0px;
+	width: 266px;
+	height: 24px;
+	top: calc(50% - 24px / 2);
 }
 
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: rgb(10, 10, 10);
-  display: block;
-  float: left;
-  transition: all 0.5s;
+.header-right li {
+	position: static;
+	width: 59px;
+	height: 24px;
+	left: 207px;
+	top: 0px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+	margin: 0px 21px;
+}
+
+li a {
+	/* line-height: 65px;
+	padding: 0 25px;
+	color: rgb(10, 10, 10);
+	display: block;
+	float: left;
+	transition: all 0.5s; */
+	/* position: absolute; */
+	width: 59px;
+	height: 24px;
+	left: 207px;
+	top: 0px;
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.3);
 }
 .logo {
-  width: 124px;
-  margin-top: 20px;
+	/* width: 124px;	
+	margin-top: 20px; */
+	position: absolute;
+	width: 124px;
+	height: 29px;
+	left: 40px;
+	top: 14px;
 }
 .logos {
-  width: 390px;
-  margin-top: 150px;
+	width: 390px;
+	margin-top: 150px;
 }
-.login{
+
+.nav-log {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+
+	position: absolute;
+	width: 250px;
+	height: 52px;
+	right: 0px;
+	top: calc(50% - 52px / 2);
+}
+
+.login {
 	margin: 6px;
 	float: right;
 	margin-right: -227px;
+}
+
+.navbar-style {
+	position: absolute;
+	width: 1322px;
+	height: 91px;
+	left: calc(40% - 756px / 2);
+	top: 0px;
+}
+.collaps {
+	width: 815px;
+	height: 58px;
+	left: calc(50% - 815px / 2 + 110.5px);
+	top: 16px;
 }
