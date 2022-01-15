@@ -215,7 +215,7 @@ body {
 }
 
 .bg-image {
-	background-image: url(../img/background.svg) no-repeat center;
+	background: url("../img/background.svg") no-repeat center;
 	opacity: 0.2;
 
 }

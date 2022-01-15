@@ -57,8 +57,13 @@
 		</div>
 		<div class="bg-container">
 			<div class="bg-image container containers">
+				<div class="space"></div>
 				<div class="row d-flex justify-content-start">
-
+					<div class="main-content">
+						<h6>Product</h6>
+						<h2 id="section">Kategori Tes</h2>
+						<p>Terdapat beberapa layanan uji tes laboratorium yang ditawarkan oleh SiniLab, di antaranya Blood Test, Urine Test, Saliva Test, Stool Test</p>
+					</div>
 				</div>
 			</div>
 		</div>
