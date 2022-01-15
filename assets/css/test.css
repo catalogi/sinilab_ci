@@ -169,7 +169,7 @@ body {
 	padding: 10px;
 }
 
-.card-item:hover{
+.card-item:hover {
 	background-color: #1087b6;
 	color: #fff;
 }
@@ -210,12 +210,95 @@ body {
 	opacity: 0.8;
 }
 .card-item h4:hover {
-	
 	color: #e9e6e6;
 }
 
 .bg-image {
 	background: url("../img/background.svg") no-repeat center;
-	opacity: 0.2;
+	/* opacity: 0.9; */
+	/* top: 3px; */
+}
+#section {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 50px;
+	/* identical to box height, or 125% */
+	color: #252b42;
 
+	letter-spacing: 0.2px;
+}
+.product-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 270px;
+	height: 245px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+	border-radius: 15px;
+	padding: 15px;
+}
+.carding{
+	padding-top: 20px;
+}
+.frame-poduct {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 25px 25px 35px;
+	width: 239px;
+	height: 314px;
+	left: 0px;
+	top: 239px;
+}
+.frame-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+
+	/* position: static; */
+	width: 189px;
+	height: 26px;
+	left: 25px;
+	top: 55px;
+}
+
+.frame-child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px;
+
+	position: static;
+	width: 50px;
+	height: 26px;
+	left: 139px;
+	top: 0px;
+
+	background: #206a5d;
+	border-radius: 20px;
+}
+.frame-childs {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+
+	position: static;
+	width: 63px;
+	height: 24px;
+	left: 0px;
+	top: 1px;
+	color: #96bb7c;
+}
+
+.frame-item h6{
+	padding:10px 0 0 2px;
+	text-align: center;
+}
+.icon{
+	color: #81e738;
 }

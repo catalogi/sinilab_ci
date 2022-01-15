@@ -65,6 +65,23 @@
 						<p>Terdapat beberapa layanan uji tes laboratorium yang ditawarkan oleh SiniLab, di antaranya Blood Test, Urine Test, Saliva Test, Stool Test</p>
 					</div>
 				</div>
+				<div class="row carding">
+					<div class="product-card">
+						<div class="frame-product">
+							<div class="frame-item">
+								<div class="frame-childs">
+									<!-- <i class="fas fa-start"></i> -->
+									<h4>Tersedia</h4>
+
+								</div>
+								<div class="frame-child">
+									<i class="fas fa-star fa-1x icon"></i>
+									<h6>4.9</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
