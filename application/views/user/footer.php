@@ -1,3 +1,46 @@
+<footer>
+	<div class="row">
+		<img id="logo" src="<?php echo base_url('/assets/img/logo-foot.svg');?>">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="grup-1">
+					<h3>Quick Links</h3>
+					<div class="child-grup"></div>
+					<h5>Signup</h5>
+					<h5>About Us</h5>
+				</div>
+			</div>	
+			<div class="col">
+				<div class="grup-1">
+					<h3>Other</h3>
+					<div class="child-grup"></div>
+					<h5>User FAQs</h5>
+					<h5>Contact Us</h5>
+					<h5>Legal</h5>
+					<h5>Privay Policy</h5>
+					<h5>Terms and Conditions</h5>
+				</div>
+			</div>
+			<div class="col">
+				<div class="grup-1">
+					<h3>Products</h3>
+					<div class="child-grup"></div>
+					<h5>Buy</h5>
+					<h5>Patnership</h5>
+					<h5>Test-kit</h5>
+				</div>
+			</div>
+			<!-- <div class="col">
+				<div class="grup-1">
+					<h3 class="grup-2">Subscribe to our newsletter and be the first to know about our updates</h3>
+				</div>
+			</div> -->
+		</div>		
+	</div>
+</footer>
+
 <!-- <script src="<?php echo base_url();?>assets/js/script.js"></script> -->
 <script>
 	$(function () {

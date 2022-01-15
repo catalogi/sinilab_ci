@@ -16,8 +16,8 @@
 </head>
 <body>
 	<header class="header">
-    <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container">
+    <nav class="navbar navbar-expand-sm fixed-top py-3">
+        <div class="container-fluid">
 					<img class="navbar-brand logo" src="<?php echo base_url('/assets/img/logo-sinilab.png');?>">
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
             
@@ -26,10 +26,10 @@
                     <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">History</a></li>
-                    <!-- <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li> -->
                     <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
                 </ul>
             </div>
+			<button class="btnd bt">Login</button>
         </div>
     </nav>
 </header>
