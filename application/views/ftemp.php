@@ -1,27 +1,3 @@
-
-	<?php
-		$this->load->view('user/header');
-	?>
-	<!-- <div class="wrapper"> -->
-		<div class="bg-containers">
-			<div class="container-fluid	">
-				<div class="space"></div>
-				<div class="row pages d-flex justify-content-around">
-					<div class="col-md-6">
-						<h1 class="headline">Your Homey-Lab in a Click</h1>
-						<h4 class="textline">SiniLab hadir sebagai sebuah layanan penyedia jasa uji laboratorium dari rumah berbasis aplikasi yang dapat diakses di manapun dan kapanpun</h4>
-						<div class="cta">
-							<button class="btnb">Buy</button>
-							<button class="btns">Learn More</button>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<img class="agent" src="<?php echo base_url(); ?>assets/img/agent.png" alt="">
-					</div>
-
-				</div>
-			</div>
-		</div>
 		<div class="bg-containers">
 			<div class="space2"></div>
 			<!-- <div class="container"> -->
@@ -60,6 +36,8 @@
 				</div>
 			</div>
 		</div>
+		
+
 		<div class="bg-containerss">
 			<div class="bg-image container containers">
 				<div class="space"></div>
@@ -192,9 +170,4 @@
 
 				</div>
 			</div>
-		</div>	
-	<!-- </div> -->
-
-    <?php
-		$this->load->view('user/footer');
-	?>
+		</div>

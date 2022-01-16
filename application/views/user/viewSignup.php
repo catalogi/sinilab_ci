@@ -10,14 +10,17 @@
 </head>
 <body>
   <!-- header -->
-    <header>
+    <!-- <header>
       <div class="container">
         <div class="header-left">
           <img class="logo" src="<?php echo base_url('img/logo-sinilab.png');?>">
         </div>
       </div>
-    </header>
+    </header> -->
     <!-- end header -->
+		<?php
+			$this->load->view('user/header');
+		?>
     
     <div class="space"></div>
     <div class="cotainer">
