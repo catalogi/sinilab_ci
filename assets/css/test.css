@@ -484,6 +484,31 @@ footer {
 	left: 50%;
 }
 .avatar{
-	width: 70px; 
-	height:55px;
+	width: 60px; 
+	height:40px;
+}
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+.kategori{
+	font-size: 14px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #3268dde3;
+	font-weight: bold;
+}
+.ket{
+	max-width: 273px !important;
+	padding: 4px;
+}
+.btnk{
+	width: 34px;
+	height: 20px;
+	color: #292929;
+	border-radius:14px;
+	border: 1px solid #fdfdfd;
+	font-size: 12px;
+	align-items: center;
+	margin-left: 18px;
+
 }

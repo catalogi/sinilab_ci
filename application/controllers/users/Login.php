@@ -13,7 +13,7 @@ class Login extends CI_Controller
 	public function index()
 	{
 		if ($this->input->post()) {
-			if ($this->Model_Login->doLogin()) redirect(site_url(''));
+			if ($this->Model_Login->doLogin()) redirect(site_url('Dashboard'));
 		}
 		$data = [
 			'title' => 'Login'
