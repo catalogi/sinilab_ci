@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>SINILAB || <?php echo $title; ?></title>
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -30,17 +30,17 @@
                 <div class="boox">
                   <img src="<?php echo base_url('assets/img/logo-sinilab.png');?>">
                 </div>
-                  <form>
+                  <form method="POST" action="<?= base_url(); ?>index.php/users/Login" class="needs-validation" novalidate="">
                     <div class="form-group mb-3">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                      <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                     </div>
                     <div class="form-group mb-3">
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kata Sandi">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kata Sandi" name="password">
                     </div>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Button</button>
+                        <input class="btn btn-primary" type="submit">Button</input>
                       </div>
-                      <div class="switch">Belum Memiliki Akun? <a href="">Daftar</a></div>
+                      <div class="switch">Belum Memiliki Akun? <a href="<?php echo base_url();?>index.php/users/Signup">Daftar</a></div>
                   </form>
               </div>  
         </div>
