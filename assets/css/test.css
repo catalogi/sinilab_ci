@@ -483,3 +483,7 @@ footer {
 .position{
 	left: 50%;
 }
+.avatar{
+	width: 70px; 
+	height:55px;
+}

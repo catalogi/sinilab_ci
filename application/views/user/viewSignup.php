@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="<?php echo base_url('css/login.css');?>">
+    <title>SINILAB || <?php echo $title; ?></title>
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+
+<div class="bgk">
   <!-- header -->
-    <!-- <header>
+    <header>
       <div class="container">
         <div class="header-left">
-          <img class="logo" src="<?php echo base_url('img/logo-sinilab.png');?>">
+          <img class="logo" src="<?php echo base_url('assets/img/logo-sinilab.png');?>">
         </div>
       </div>
-    </header> -->
+    </header>
     <!-- end header -->
-		<?php
-			$this->load->view('user/header');
-		?>
     
     <div class="space"></div>
     <div class="cotainer">
@@ -29,27 +28,23 @@
           <div class="col-md-4 nopad">
               <div class="login-box">
                 <div class="boox">
-                  <img src="<?php echo base_url('img/logo-sinilab.png');?>">
+                  <img src="<?php echo base_url('assets/img/logo-sinilab.png');?>">
                 </div>
-                  <form>
+                  <form method="POST" action="<?= base_url(); ?>index.php/users/Login" class="needs-validation" novalidate="">
                     <div class="form-group mb-3">
-                      <input type="text" class="form-control" id="exampleInputNama" aria-describedby="nama" name="nama" placeholder="Nama">
-                    </div>
-                    <!-- <div class="form-group mb-3">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                    </div> -->
-                    <div class="form-group mb-3">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                      <input type="email" class="form-control" name="nama" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nama lengkap">
                     </div>
                     <div class="form-group mb-3">
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kata Sandi">
+                      <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group mb-3">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kata Sandi" name="password">
                     </div>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Button</button>
-                    </div>
-                    <div class="switch">Sudah Memiliki Akun? <a href="">Masuk</a></div>
+                        <input class="btn btn-primary" type="submit" value="Daftar">
+                      </div>
+                      <div class="switch">Sudah Memiliki Akun? <a href="<?php echo base_url();?>index.php/users/Login">Masuk</a></div>
                   </form>
-                  
               </div>  
         </div>
         <div class=" col-md-4 nopad">
@@ -62,7 +57,7 @@
     <footer>
           <p>Copyright @ 2022 sinilab</p>
         </footer>
-
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
