@@ -29,7 +29,7 @@
                     <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
                 </ul>
             </div>
-			<button class="btnd bt">Login</button>
+			<a class="btnd bt" href="<?php echo base_url(); ?>index.php/users/login" >Login</a>
         </div>
     </nav>
 </header>

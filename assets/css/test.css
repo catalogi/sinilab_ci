@@ -48,7 +48,7 @@
 	position: absolute;
 	width: 143px;
 	height: 30px;
-	margin:40px 120px;
+	margin: 40px 120px;
 	/* position:fixed; */
 }
 
@@ -136,8 +136,18 @@ body {
 	border: 2px solid #737373;
 	color: #f8fffa;
 }
-.bt{
+.bt {
 	margin-left: 40px;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.bt:hover {
+	text-decoration: none;
+	color: #fdfdfd;
+	background-color: #a1aca4;
+	opacity: 0.8;
 }
 
 .agent {
@@ -423,34 +433,53 @@ body {
 }
 footer {
 	width: 1487px;
+	position: absolute;
+	/* display: block; */
 	height: 350px;
 	left: 0px;
-	top: 806px;
+	/* top: 806px; */
 	background: #1087b6;
 }
-.group{
-	width:120px;
+.group {
+	width: 120px;
 }
 .row {
 	width: 100%;
 }
 
-.grup-1{
-	margin :78px 48px 40px 65px;
+.grup-1 {
+	margin: 78px 48px 40px 65px;
 	width: 17f5px;
 	color: #fff;
 }
-.child-grup{
+.child-grup {
 	width: 150px;
 	height: 6px;
 	background: #f4fafa;
 	margin-bottom: 20px;
 }
-.grup-1 h5{
-	font-family: 'open sans'
+.grup-1 h5 {
+	font-family: "open sans";
 }
-.grup-2{
-	font-family: 'open sans';
+.grup-2 {
+	font-family: "open sans";
 	font: size 10px;
 	font-style: normal;
+}
+.card-items {
+	height: auto;
+	width: 700px;
+	/* left: 24px;
+	top: 50%; */
+	background-color: #ffffff;
+	border: 1px solid #fff;
+	box-shadow:2px 2px 2px 1px rgba(131, 131, 131, 0.438);
+	border-radius :8px;
+	/* position: absolute; */
+	/* left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%); */
+}
+.position{
+	left: 50%;
 }
