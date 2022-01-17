@@ -16,7 +16,7 @@
 </div>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-2">
+		<div class="col-md-4">
 			<h6 class="kategori">Kategori Tes</h6>
 			<div class="card-items ket">
 				<div class="row">
@@ -26,8 +26,49 @@
 					<button class="btnk">Stool</button>
 					<button class="btnk">Saliva</button>
 				</div>
+			</div>
+			<!-- <div class="row margin-left"> -->
+			<h6 class="kategori margin-left"> <i class="fas fa-home"></i> Alamat Pengiriman</h6>
+			<textarea class="form-control kets"></textarea>
+			<h6 class="kategori margin-left"> <i class="fas fa-map-marker-alt"></i> Lokasi Test</h6>
+			
+			<div class="card-items kets">
+				<h6 class="h6"><i class="fa fa-dot-circle"></i>Terdekat</h6>
 
+				<div class="scroll d-flex flex-column bd-highlight mb-3" >
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+						<label class="form-check-label" for="inlineRadio1">aceh</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+						<label class="form-check-label" for="inlineRadio1">Padang</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+						<label class="form-check-label" for="inlineRadio1">Jakarta</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+						<label class="form-check-label" for="inlineRadio1">Bnten</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="space"></div> -->
+		<div class="col-8">
+			<div class="card-items ketst">
+				<div class="row">
+					<div class="col-auto">
+						<img class="log-rs" src="<?php echo base_url(); ?>assets/img/rshm.jpg" alt="">
+					</div>
+					<div class="col">
+						<h4 class="font-lok">Rumah Sakit harus masiku</h4>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<div class="space"></div>
+<?php $this->load->view('user/footer'); ?>)
