@@ -38,7 +38,7 @@
                       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kata Sandi" name="password">
                     </div>
                     <div class="d-grid gap-2">
-                        <input class="btn btn-primary" type="submit">Button</input>
+                        <input class="btn btn-primary" type="submit" value="Masuk">
                       </div>
                       <div class="switch">Belum Memiliki Akun? <a href="<?php echo base_url();?>index.php/users/Signup">Daftar</a></div>
                   </form>
