@@ -58,7 +58,7 @@
 		<!-- <div class="space"></div> -->
 		<div class="col-8">
 			<div class="card-items ketst">
-				<div class="row">
+				<div class="row ">
 					<div class="col-auto">
 						<img class="log-rs" src="<?php echo base_url(); ?>assets/img/rshm.jpg" alt="">
 					</div>
@@ -66,8 +66,74 @@
 						<h4 class="head-lok">Rumah Sakit Harum Sisma Medika</h4>
 						<h6 class="alamat-lok">Jl. S. Kalimalang Tarum Barat, RT.1/RW.13</h6>
 						<h6 class="alamat-lok"> (021) 8617212</h6>
+						<div class="row">
+							<div class="col-sm">
+								<i class="fas fa-map-marker-alt"><i class="fas fa-chevron-left"></i>8km</i>
+								<span><i class="fas fa-star" style="color:#9df510"></i>4.5</span>
+							</div>
+						</div>
 					</div>
+					<div class="col-auto center"><a href="" class="btnd sa">Pesan Sekarang</a></div>
 				</div>
+			</div>
+			<div class="card-items ketst">
+				<div class="row ">
+					<div class="col-auto">
+						<img class="log-rs" src="<?php echo base_url(); ?>assets/img/rshm.jpg" alt="">
+					</div>
+					<div class="col">
+						<h4 class="head-lok">Rumah Sakit Harum Sisma Medika</h4>
+						<h6 class="alamat-lok">Jl. S. Kalimalang Tarum Barat, RT.1/RW.13</h6>
+						<h6 class="alamat-lok"> (021) 8617212</h6>
+						<div class="row">
+							<div class="col-sm">
+								<i class="fas fa-map-marker-alt"><i class="fas fa-chevron-left"></i>8km</i>
+								<span><i class="fas fa-star" style="color:#9df510"></i>4.5</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-auto center"><a href="" class="btnd sa">Pesan Sekarang</a></div>
+				</div>
+			</div>
+			<div class="card-items ketst">
+				<div class="row ">
+					<div class="col-auto">
+						<img class="log-rs" src="<?php echo base_url(); ?>assets/img/rshm.jpg" alt="">
+					</div>
+					<div class="col">
+						<h4 class="head-lok">Rumah Sakit Harum Sisma Medika</h4>
+						<h6 class="alamat-lok">Jl. S. Kalimalang Tarum Barat, RT.1/RW.13</h6>
+						<h6 class="alamat-lok"> (021) 8617212</h6>
+						<div class="row">
+							<div class="col-sm">
+								<i class="fas fa-map-marker-alt"><i class="fas fa-chevron-left"></i>8km</i>
+								<span><i class="fas fa-star" style="color:#9df510"></i>4.5</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-auto center"><a href="" class="btnd sa">Pesan Sekarang</a></div>
+				</div>
+			</div>
+			<div class="ketstt ">
+				<nav aria-label="Page navigation ">
+				<ul class="pagination">
+					<li class="page-item">
+					<a class="page-link" href="#" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">Previous</span>
+					</a>
+					</li>
+					<li class="page-item active"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+					<a class="page-link" href="#" aria-label="Next">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">Next</span>
+					</a>
+					</li>
+				</ul>
+			</nav>
 			</div>
 		</div>
 	</div>

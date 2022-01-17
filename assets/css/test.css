@@ -543,6 +543,14 @@ footer {
 	height: auto;
 	padding: 1px;
 	margin-left: 20px;
+	margin-top: 20px;
+}
+.ketstt {
+	width: auto;
+	height: auto;
+	padding: 1px;
+	margin-left: 200px;
+	margin-top: 20px;
 }
 
 .h6 {
@@ -551,16 +559,18 @@ footer {
 }
 
 .log-rs {
-	width: 56px;
-	height: 56px;
+	width: 113px !important;
+	height: 125px !important;
 	border-radius: 7px;
+	padding:1px;
+
 }
 
 .head-lok {
 	font-family: 'Courier New', Courier, monospace;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 25px;
 }
 
@@ -568,6 +578,14 @@ footer {
 	font-family: 'Courier New', Courier, monospace;
 	font-style: normal;
 	/* font-weight: 600; */
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 25px;
+}
+.sa{
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.center{
+	margin: 50px 0;
 }
