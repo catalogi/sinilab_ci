@@ -556,10 +556,18 @@ footer {
 	border-radius: 7px;
 }
 
-.font-lok {
-	font-family: Mulish;
+.head-lok {
+	font-family: 'Courier New', Courier, monospace;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
+	line-height: 25px;
+}
+
+.alamat-lok{
+	font-family: 'Courier New', Courier, monospace;
+	font-style: normal;
+	/* font-weight: 600; */
+	font-size: 14px;
 	line-height: 25px;
 }

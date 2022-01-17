@@ -63,7 +63,9 @@
 						<img class="log-rs" src="<?php echo base_url(); ?>assets/img/rshm.jpg" alt="">
 					</div>
 					<div class="col">
-						<h4 class="font-lok">Rumah Sakit harus masiku</h4>
+						<h4 class="head-lok">Rumah Sakit Harum Sisma Medika</h4>
+						<h6 class="alamat-lok">Jl. S. Kalimalang Tarum Barat, RT.1/RW.13</h6>
+						<h6 class="alamat-lok"> (021) 8617212</h6>
 					</div>
 				</div>
 			</div>
